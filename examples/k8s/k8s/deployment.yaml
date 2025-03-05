@@ -22,17 +22,17 @@ spec:
           valueFrom:
             secretKeyRef:
               key: AccessKey
-              name: rook-ceph-object-user-us-east-1-buckets-usage-exporter
+              name: rook-ceph-object-user-mdtuddm-buckets-usage-exporter
         - name: SECRET_KEY
           valueFrom:
             secretKeyRef:
               key: SecretKey
-              name: rook-ceph-object-user-us-east-1-buckets-usage-exporter
+              name: rook-ceph-object-user-mdtuddm-buckets-usage-exporter
         - name: RADOSGW_SERVER
           valueFrom:
             secretKeyRef:
               key: Endpoint
-              name: rook-ceph-object-user-us-east-1-buckets-usage-exporter
+              name: rook-ceph-object-user-mdtuddm-buckets-usage-exporter
         - name: VIRTUAL_PORT
           value: "9242"
         - name: STORE

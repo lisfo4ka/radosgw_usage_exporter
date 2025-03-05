@@ -3,7 +3,7 @@ kind: CephObjectStoreUser
 metadata:
   name: buckets-usage-exporter
 spec:
-  store: us-east-1
+  store: mdtuddm
   displayName: buckets-usage-exporter
   capabilities:
     bucket: read
